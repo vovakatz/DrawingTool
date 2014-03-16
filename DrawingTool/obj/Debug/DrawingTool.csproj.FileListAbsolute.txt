@@ -1,0 +1,6 @@
+D:\Playground\DrawingTool\DrawingTool\bin\Debug\DrawingTool.exe.config
+D:\Playground\DrawingTool\DrawingTool\bin\Debug\DrawingTool.exe
+D:\Playground\DrawingTool\DrawingTool\bin\Debug\DrawingTool.pdb
+D:\Playground\DrawingTool\DrawingTool\obj\Debug\DrawingTool.csprojResolveAssemblyReference.cache
+D:\Playground\DrawingTool\DrawingTool\obj\Debug\DrawingTool.exe
+D:\Playground\DrawingTool\DrawingTool\obj\Debug\DrawingTool.pdb
