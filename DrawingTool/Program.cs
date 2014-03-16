@@ -16,9 +16,9 @@ namespace DrawingTool
 
             while (!quit)
             {
-                System.Console.Write("enter command: ");
+                Console.Write("enter command: ");
                 string line;
-                while ((line = System.Console.ReadLine().Trim()) == "") ;
+                while ((line = Console.ReadLine().Trim()) == "") ;
                 args = line.Split(' ');
                 switch (args[0].ToUpper())
                 {
@@ -38,7 +38,7 @@ namespace DrawingTool
                         quit = true;
                         break;
                     default:
-                        System.Console.WriteLine("you entered invalid command");
+                        Console.WriteLine("you entered unrecognized command");
                         tool = null;
                         break;
                 }
@@ -49,6 +49,10 @@ namespace DrawingTool
                     {
                         canvas = tool.Create();
                         DrawHelper.DisplayDrawing(canvas);
+                    }
+                    else
+                    {
+                        Console.WriteLine("you entered invalid command");
                     }
                 }
             }

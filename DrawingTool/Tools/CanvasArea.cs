@@ -19,6 +19,19 @@ namespace DrawingTool
 
         public bool Validate()
         {
+            if (_args.Length < 3)
+                return false;
+            int num;
+            bool test = int.TryParse(_args[1], out num);
+            if (test == false)
+                return false;
+            if (num < 1)
+                return false;
+            test = int.TryParse(_args[2], out num);
+            if (test == false)
+                return false;
+            if (num < 1)
+                return false;
             return true;
         }
 
