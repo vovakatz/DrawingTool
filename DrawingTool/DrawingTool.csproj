@@ -56,15 +56,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BucketFill.cs" />
-    <Compile Include="CanvasArea.cs" />
+    <Compile Include="Tools\BucketFill.cs" />
+    <Compile Include="Tools\CanvasArea.cs" />
     <Compile Include="Coordinate.cs" />
     <Compile Include="DrawHelper.cs" />
-    <Compile Include="ITool.cs" />
-    <Compile Include="Line.cs" />
+    <Compile Include="Tools\ITool.cs" />
+    <Compile Include="Tools\Line.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
+    <Compile Include="Tools\Rectangle.cs" />
     <Compile Include="Validation.cs" />
   </ItemGroup>
   <ItemGroup>
