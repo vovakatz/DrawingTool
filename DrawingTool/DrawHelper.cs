@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// this is a helper.
 namespace DrawingTool
 {
     public class DrawHelper
